@@ -3,16 +3,19 @@
     --snow: #F3F5F7;
     --slate-grey: #6C809A;
     --eggplant: #795663;
+    --mountbatten-pink: #AA8894;
     --cambridge-blue-or-green: #75BBA7;
     --dark-slate-green: #183A37;
     --rich-black: #04151F;
 
-    --headings: var(--eggplant);
-    --names: var(--dark-slate-green);
-    --roles: var(--eggplant);
+    --main-text: var(--snow);
+    --headings: var(--cambridge-blue-or-green);
+    --names: var(--mountbatten-pink);
+    --roles: var(--mountbatten-pink);
 }
 
 html {
+    color: var(--main-text);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -20,12 +23,68 @@ html {
 }
 
 body {
-    background-color: var(--snow);
+    background-color: var(--rich-black);
+}
+
+.hero {
+    background-image: url("images/jcbc.jpg");
+    height: 100vh;
+    max-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: var(--rich-black) 5px 5px 25px;
+}
+
+.hero h1 {
+    text-align: center;
+    color: var(--snow);
+    font-size: 5rem;
+}
+
+.hero nav {
+}
+
+.hero nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.hero nav ul li {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero nav ul li a {
+    text-decoration: none;
+    color: var(--snow);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.hero nav ul li a:hover {
+    color: var(--cambridge-blue-or-green);
 }
 
 div.block {
-    border: 1px solid black;
-    padding: 3em 1em;
+    background-color: var(--rich-black);
+    padding: 3rem 1rem;
+}
+
+.block .inner-block-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.block:nth-child(even) {
+    background-color: var(--dark-slate-green);
+}
+
+.block h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +104,10 @@ h1, h2, h3, h4, h5, h6 {
 .team-member {
     flex: 300px 0 0;
     margin: 0 auto;
+}
+
+.team-member img {
+    margin-bottom: 1em;
 }
 
 .team-member h4 {
