@@ -26,6 +26,10 @@ body {
     background-color: var(--rich-black);
 }
 
+p {
+    margin: 1em 0;
+}
+
 .hero {
     background-image: url("images/jcbc.jpg");
     height: 100vh;
