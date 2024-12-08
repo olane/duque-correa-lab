@@ -40,6 +40,8 @@ a:hover {
 
 .hero {
     background-image: url("images/jcbc.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 100vh;
     max-height: 1000px;
     display: flex;
