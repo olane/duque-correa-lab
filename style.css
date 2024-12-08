@@ -30,6 +30,14 @@ p {
     margin: 1em 0;
 }
 
+a {
+    color: var(--cambridge-blue-or-green);
+}
+
+a:hover {
+    color: var(--mountbatten-pink);
+}
+
 .hero {
     background-image: url("images/jcbc.jpg");
     height: 100vh;
@@ -123,4 +131,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--roles);
     font-weight: 600;
     min-height: 4em;
+}
+
+ul.publications-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.publications-list li {
+    margin: 1em 0;
 }
