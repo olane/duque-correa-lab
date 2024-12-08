@@ -55,9 +55,6 @@ a:hover {
     font-size: 5rem;
 }
 
-.hero nav {
-}
-
 .hero nav ul {
     display: flex;
     list-style: none;
