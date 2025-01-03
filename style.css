@@ -132,13 +132,30 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 4em;
 }
 
-ul.publications-list {
-    list-style: none;
-    padding: 0;
+.publication-section {
+    display: flex;
+    border-top: 5px dotted var(--main-text);
+    margin-bottom: 3rem;
 }
 
-ul.publications-list li {
-    margin: 1em 0;
+h3.publications-section-title {
+    flex: 1 1 auto;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-size: 2rem;
+}
+
+.publications-list {
+    flex: 1 1 auto;
+}
+
+.publications-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+.publications-list ul li {
+    margin: 1rem 0;
 }
 
 .gallery {
