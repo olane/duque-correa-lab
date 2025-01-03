@@ -140,3 +140,21 @@ ul.publications-list {
 ul.publications-list li {
     margin: 1em 0;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery .gallery-block {
+    flex-basis: 400px;
+    margin: 1rem auto;
+    height: 300px;
+}
+
+.gallery .gallery-block img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
