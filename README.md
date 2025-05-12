@@ -22,6 +22,6 @@ The site is automatically deployed to GitHub Pages when changes are pushed to th
 2. Builds the site
 3. Deploys to GitHub Pages
 
-You can monitor deployments in the [Actions](https://github.com/duque-correa-lab/duque-correa-lab/actions) tab.
+You can monitor deployments in the [Actions](https://github.com/olane/duque-correa-lab/actions) tab.
 
-The live site is available at: https://duque-correa-lab.github.io/duque-correa-lab/
+The live site is available at: https://olane.github.io/duque-correa-lab/
